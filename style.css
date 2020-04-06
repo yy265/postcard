@@ -1,0 +1,24 @@
+/*применяем background к body, чтобы ко всему документу*/
+body {
+  background-image: url("img/corona-bg.png");
+  background-size: cover; /*растянуть по всей поверхности*/
+  /*coursor: url("img/rasp.png");*/
+  /*coursor: url("img/rasp.cur"); сконвертить png в .cur*/
+  cursor: none; /* убираем видимость системного курсора*/
+}
+
+.banner img {
+  border: 4px solid white;
+}
+
+.corona-text {
+  background: rgba(255,255,255,0.9);/*прозрачна на 10%, задний фон делаем прозрачным, а не весь элемент*/
+}
+
+.virusCount {
+  position: fixed; /*неподвижная позиция*/
+  top: 0;
+  padding: 15px;
+  background: rgba(255,255,255,0.9);
+  border: 2px solid black;
+}
